@@ -2,7 +2,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
 import { api } from "y/utils/api";
-import { Header } from "y/components/Header";
+import { Header } from "../components/Header";
 
 export default function Home() {
   return (
